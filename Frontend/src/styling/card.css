@@ -1,0 +1,102 @@
+.treasure{
+    margin-left:80px;
+    border-radius:10px;
+    margin-right:20px
+}
+.cardflexRow{
+    margin-top:20px;
+    display:flex;
+    flex-direction:row
+}
+.cardflexRow2{
+    margin-top:20px;
+    display:flex;
+    flex-direction:row
+}
+.ques {
+    color:lightgrey;
+    margin-top:-430px;
+    margin-left:70px;
+    width:300px;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+    font-family: 'Cinzel Decorative', cursive;
+    
+}
+.unlock{
+    margin-top:-360px;
+    text-align: center;
+}
+.altText{
+    visibility:hidden;
+    color:antiquewhite;
+    font-style:italic;
+    margin-left:60px
+}
+.unlockbtn{
+    background: transparent;
+    font-size:20px;
+    color:whitesmoke;
+    margin-left:10px;
+    width:150px;
+    border:2px solid white;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+
+}
+.quesBox{
+    height:270px;
+    width:400px;
+    margin-bottom:200px;
+    margin-top:30px;
+}
+.btn{
+    background-color: transparent;
+    color:white;
+    outline:none;
+    margin-left:100px;
+    border:1px solid white;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color:black;
+    color:white;
+    border:1px solid black;
+    border-radius:30px
+}
+.sofia{
+    font-family:sofia;
+    font-size:25px
+}
+.flexing{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 800px) {
+    .hide{
+        visibility:hidden
+    }
+    .cardflexRow{
+        margin-top:-70px;
+        margin-left:32%
+    }
+    .treasure{
+        visibility:hidden
+    }
+   .showresBox{
+    margin-left:-650px;
+    width:300px;
+   }
+   .btn{
+    margin-left:100px;
+   }
+   .unlockbtn{
+    margin-left:-300px
+   } 
+   .altText{
+    visibility: visible;
+   }
+  }

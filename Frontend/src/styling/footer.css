@@ -1,0 +1,55 @@
+.footerstyle{
+    background-color:black;
+    padding-bottom:20px
+    
+}
+.footerinline{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    padding:50px
+}
+.footertxt{
+    color:grey;
+}
+.footerheading{
+    color:orange;
+    margin-top:20px
+}
+.footericons{
+    color:whitesmoke;
+    margin-left:15px
+}
+.footerbottom{
+    color:grey;
+    margin-top:-20px;
+    font-size:10px;
+    margin-left:350px
+}
+
+.one:hover{
+    color: rgb(213, 25, 147);
+}
+.two:hover{
+    color:green;
+}
+.three:hover{
+    color: blue;
+}
+.four:hover{
+    color:red;
+}
+
+@media only screen and (max-width:800px){
+    .footerstyle{
+        height:50px;
+        margin-top:300px;
+    }
+    .footerinline{
+        visibility:hidden
+    }
+    .respoIcons{
+        margin-top:-300px;
+        margin-left:-210px
+    }
+}

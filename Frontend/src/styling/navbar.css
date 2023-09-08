@@ -1,0 +1,79 @@
+.mystyle {
+    position:fixed;
+    height:80px;
+    width:1245px;
+    margin-left: -1%;
+    backdrop-filter:blur(8px);
+    background-color:transparent;
+    z-index:100;
+    display:flex;
+    flex-direction:row;
+}
+
+.logo {
+    margin:20px;
+    border-radius:50%;
+    height:50px;
+    width:50px;
+}
+
+
+.headingStyle {
+    font-size:30px;
+    font-family:sofia;
+    margin-top:10px;
+    margin-left:450px;
+    color:white;
+    margin-right:200px;
+}
+.line {
+    font-family:sofia;
+    color:rgb(215, 199, 201);
+    margin-left:470px;
+    margin-top:-7px;
+}
+.tabs {
+    color:white;
+    text-decoration:none;
+    margin:20px;
+}
+.tabs1 {
+    color:white;
+    text-decoration:none;
+    margin:20px;
+}
+.flexRow {
+    display:flex;
+    flex-direction:row;
+}
+.dropDown{
+    color:white;
+    font-size:35px;
+    /* visibility:hidden; */
+    margin-top:-11%;
+    margin-left:30%;
+    font-weight:bold;
+    font-size:20px
+}
+
+@media only screen and (max-width: 600px) {
+    .mystyle{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .flexRow{
+        visibility:hidden
+    }
+    .headingStyle{
+        margin-left:13%;
+        margin-top:-7%
+    }
+    .line{
+        margin-left: 15%;
+    }
+    .dropDown{
+        visibility: visible;
+    }
+
+  }
